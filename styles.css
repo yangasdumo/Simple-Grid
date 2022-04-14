@@ -1,0 +1,199 @@
+/* *{ */
+    /* box-sizing: border-box; */
+    /* margin: 0;  */
+/* } */
+
+ /* .container{
+    width: 100%;
+   padding: 20px; 
+} */
+
+.contauner{
+    width: 100%;
+}
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.city{
+    font-size: 50px;
+    text-align: center;
+}
+.p{
+    font-size: 50px;
+}
+.places{
+    display: flex;
+}
+h1{
+    text-align: center;
+
+}
+.Foregn{
+   text-align: center;
+}
+.image1{
+    width: 200px;
+    height: 200px; 
+}
+img.dubai {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+table , th ,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 800px;
+}
+.image2{
+    
+    width: 180px; 
+    height: 180px;
+}
+.image3{
+    width:180px;
+    height: 180px;
+}
+.image4{
+    width: 180px;
+    height: 180px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    column-gap:40px ;
+    font-size:40px;
+}
+/*----------------------------------------------------------------------------*/
+.city-main{
+    display:flex;
+    justify-content: center;
+    column-gap: 200px;
+}
+.things{
+     display: flex;
+     flex-direction: row; 
+     gap: 20px;
+}
+.uae > p {
+ align-self: center;
+}
+body {
+    background-color:violet;
+    color:white;
+    font-size: 20px;
+
+}
+.places {
+     display:flex;
+    flex-direction: row; 
+}
+.places > h2{
+    display: flex;
+    align-self: flex-start;
+}
+.good{
+    /* width: 600px; */
+}
+.image-box {
+    float: left;
+    padding-right:5px;
+}
+.city{
+    text-align: center;
+}
+.heading{
+    align-items: center;
+
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.language > p {
+    text-align:center;
+}
+.three-places{
+    width:100%;
+    padding-right:5px;
+    display: flex;
+}
+.good img{
+    width:170px;
+    height:170px; 
+} 
+
+@media screen  and (max-width:680px){
+    .good img{
+        width:170px;
+        height:170px;
+        float:left;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .header {
+        font-size:30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .name{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .image1{
+        width:50px;
+        height: 50px;
+        align-self: center;
+    }
+    .places {
+        display: flex;
+        /* align-items: center; */
+        justify-items: center;
+    flex-direction: column; 
+        text-align: center; 
+    }
+    .things{
+        flex-direction: column;
+    }
+    .dubai{
+      width:260px;
+      height: 200px;
+      float: right;
+      align-self: center;
+    }
+    .city{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .good p {
+       width:100%;
+       margin-left:5px; 
+       padding-left:5px;
+       padding-top: 10px; 
+    
+    }
+    .Foregn{
+        padding-bottom: 10px;
+    }
+    .image-box {
+        margin-left: 10%; 
+        padding-left: 12%;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+
+    
+
